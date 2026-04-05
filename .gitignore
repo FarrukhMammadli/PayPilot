@@ -1,0 +1,84 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native builds
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.hprof
+*.apk
+*.aab
+*.ipa
+
+# iOS
+ios/Pods/
+ios/.xcode.env.local
+ios/build/
+
+# Android
+android/.gradle/
+android/app/build/
+android/app/debug/
+android/app/release/
+android/build/
+android/local.properties
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+frontend/.env
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# EAS Build
+.eas/
+
+# Supabase
+supabase/.branches/
+supabase/.temp/
+
+# Misc
+*.pem
+.cache/
