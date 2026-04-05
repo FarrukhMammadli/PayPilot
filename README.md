@@ -1,4 +1,4 @@
-# PayPilot
+# PayPilot 
 
 > **Hakaton Layihəsi (Hackathon Project)**: Bu layihə xüsusi olaraq bir Hakaton çərçivəsində **MVP (Minimum İşlək Məhsul)** kimi qısa müddət ərzində hazırlanmışdır. Dərhal istifadəyə yararlı olacaq real texnoloji həll yollarının konseptual nümayişidir.
 
