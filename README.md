@@ -1,4 +1,4 @@
-# PayPilot 🚀
+# PayPilot
 
 > **Hakaton Layihəsi (Hackathon Project)**: Bu layihə xüsusi olaraq bir Hakaton çərçivəsində **MVP (Minimum İşlək Məhsul)** kimi qısa müddət ərzində hazırlanmışdır. Dərhal istifadəyə yararlı olacaq real texnoloji həll yollarının konseptual nümayişidir.
 
@@ -19,41 +19,33 @@
 ## Əsas Funksiyalar və İnterfeys
 
 ### Süni İntellekt Köməkçisi (AI Assistant)
-<p align="center">
-  <img src="assets/chat.png" width="300" style="border-radius: 10px; margin-bottom: 5px;" />
-</p>
+
 **AI Assistant** ekranı tətbiqin ən əsas moduludur. Siz sadəcə *"Bakcell-ə 15 manat vur"* və ya *"CinemaPlus üçün bilet al"* deyərək səsli/yazılı əmr verirsiniz. Köməkçi arxa planda Azərbaycan banklarının kampaniyalarını xatırlayaraq (məs: Kapital Bank ilə filmlərə 10% cashback var), sizə ən gəlirli kartı təklif edir. Təsdiqinizlə ödəniş anında reallaşır və uöurla başa çatdığını ekranda yuxarıdakı kimi göstərir.
 
-### 💳 Rəqəmsal Cüzdan (My Wallet)
-<p align="center">
-  <img src="assets/wallet.png" width="300" style="border-radius: 10px; margin-bottom: 5px;" />
-</p>
+### Rəqəmsal Cüzdan (My Wallet)
+
 Bütün virtual və fiziki bank kartlarınızı tək səhifədən idarə edin! Bu ekranda (My Wallet) kartlarınız nömrələri, balansları və bəzəkli dizaynları ilə siyahılanır. Məsələn: ABB, Kapital Bank, Leobank kimi fərqli kartlarınızı əlavə edib, onları "Favorit" seçə və aktiv qalıq balansı anında vizual olaraq izləyə bilərsiniz.
 
-### 📊 Xərclərin İdarəedilməsi və Təhlil (Insights)
-<p align="center">
-  <img src="assets/insights.png" width="300" style="border-radius: 10px; margin-bottom: 5px;" />
-</p>
+### Xərclərin İdarəedilməsi və Təhlil (Insights)
+
 **Insights** paneli yalnız xərclərinizi yox, eləcə də qazandıqlarınızı göstərən müasir görünüşlü bir qrafik ekranıdır. Həftəlik və aylıq xərcləmələr sütunlarla vizuallaşdırılır, hansı günlər daha çox xərc çəkdiyiniz aşkar olunur. Eləcə də "Bonuses & Offers" hissəsində Bravo, Wolt kimi yerlərdə düzgün kart seçdiyiniz üçün nə qədər qənaət etdiyiniz (Cashback/Bonuslar) konkret rəqəmlərlə nümayiş etdirilir.
 
-### 🔒 Təhlükəsiz Ödəniş və Təsdiqləmə (Secure Payments / OTP)
-<p align="center">
-  <img src="assets/otp.png" width="300" style="border-radius: 10px; margin-bottom: 5px;" />
-</p>
+### Təhlükəsiz Ödəniş və Təsdiqləmə (Secure Payments / OTP)
+
 Ödənişin son addımında pullarınızın tam təhlükəsizliyi üçun qorunan **OTP ekranı** qarşınıza çıxır. "Verified by Visa" və Mərkəzi Bankın təhlükəsizlik qaydalarına bənzər şəkildə formalaşdırılmış interfeys ilə sizə gələn 4 rəqəmli kodu daxil edərək pulunuzun başqa mənbələrə getmə riskini sıfıra endirirsiniz. Bütün maliyyə əməliyyatları **Supabase RPC** vasitəsilə atomik formada saxlanılır.
 
 ---
 
-## 🛠 Texnologiya Steki (Tech Stack)
+## Texnologiya Steki (Tech Stack)
 
 | Səviyyə | Texnologiya | Özəllik / Məqsəd |
 |---------|-------------|------------------|
 | **Frontend** | React Native, Expo, TypeScript | Çarpaz platforma (iOS/Android), mürəkkəb animasiyalar |
 | **Backend** | Supabase (PostgreSQL) | Məlumat bazası, Auth, SQL Row Level Security (RLS) |
-| **AI (Süni İntellekt)** | Deno (Edge Functions) + Gemini 2.5 Flash | Mürəkkəb dil təhlili, səsli mesajların və arxa fon ssenarilərinin emalı |
+| **Süni İntellekt** | Deno (Edge Functions) + Gemini 2.5 Flash | Mürəkkəb dil təhlili, səsli mesajların və arxa fon ssenarilərinin emalı |
 | **Styling** | React Native StyleSheet / Lucide Icons | Premium, modern və dinamik interfeyslərin yaradılması |
 
-## 📁 Layihənin Strukturu
+## Layihənin Strukturu
 
 ```text
 PayPilot/
@@ -76,7 +68,7 @@ PayPilot/
 └── README.md          # Bu məlumatlandırma faylı
 ```
 
-## 🚀 Quraşdırma və İşəsalma
+## Quraşdırma və İşəsalma
 
 ### 1. Backend-in Quraşdırılması (Supabase)
 1. [supabase.com](https://supabase.com) platformasında profil hesabınıza uyğun yeni layihə yaradın.
