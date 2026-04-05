@@ -8,7 +8,7 @@
 
 ## Komanda və Yaradıcılar (Contributors)
 
-* **Omar Musazada** (*Mobile & Frontend Development*) - Çarpaz platformalı React Native (Expo) mobil tətbiqinin kodlanması, UI/UX interfeyslərinin ekranlaşdırılması və daxili "state" idarəetməsi.
+* **Omar Musazada** (*Mobile & Frontend Development*) - Multiplatform React Native (Expo) mobil tətbiqinin kodlanması, UI/UX interfeyslərinin ekranlaşdırılması və daxili "state" idarəetməsi.
 * **Sanan Hajiyev** (*Backend & Database Engineering*) - Supabase (PostgreSQL) məlumat bazasının arxitekturası, RLS (Row Level Security) təhlükəsizliyi və SQL RPC (process_payment) vasitəsilə atomik tranzaksiya məntiqinin yazılması.
 * **Farrukh Mammadli** (*Designer & AI / Prompt Engineering*) - Gemini 2.5 Flash modelinin Edge Functions ilə inteqrasiyası, səsli/yazılı əmrləri analiz edən xüsusi AI "System Prompt"unun (cashback tövsiyələri daxil) tərtibi və ümumi dizayn konsepti.
 * **Rauf Jafarov** (*DevOps & Cloud Architecture*) - Layihənin "Serverless" bulud infrastrukturunun (Edge Functions) qurulması, məxfi mühit açarlarının (.env) təhlükəsiz izolyasiyası və server bağlantılarının konfiqurasiyası.
