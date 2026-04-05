@@ -1,16 +1,12 @@
-<div align="center">
-  <img src="assets/logo.png" alt="PayPilot Logo" width="120" />
-</div>
-
 # PayPilot 🚀
 
-> 🏆 **Hakaton Layihəsi (Hackathon Project)**: Bu layihə xüsusi olaraq bir Hakaton çərçivəsində **MVP (Minimum İşlək Məhsul)** kimi qısa müddət ərzində hazırlanmışdır. Dərhal istifadəyə yararlı olacaq real texnoloji həll yollarının konseptual nümayişidir.
+> **Hakaton Layihəsi (Hackathon Project)**: Bu layihə xüsusi olaraq bir Hakaton çərçivəsində **MVP (Minimum İşlək Məhsul)** kimi qısa müddət ərzində hazırlanmışdır. Dərhal istifadəyə yararlı olacaq real texnoloji həll yollarının konseptual nümayişidir.
 
 **PayPilot** (və ya *CardAssistant*), xüsusilə Azərbaycan bazarı üçün dizayn edilmiş, qabaqcıl süni intellekt (AI) dəstəkli mobil bankçılıq və şəxsi maliyyə köməkçisi tətbiqidir. React Native (Expo) və Supabase texnologiyaları əsasında qurulan tətbiq, təbii dildə verilən səsli və yazılı əmrləri anlayaraq (Google Gemini 2.5 Flash vasitəsilə) istifadəçiyə ən sərfəli ödəniş yollarını (məsələn, ən yüksək cashback verən bankı) təşviq edir.
 
 ---
 
-## 👥 Komanda və Yaradıcılar (Contributors)
+## Komanda və Yaradıcılar (Contributors)
 
 * **Omar Musazada** (*Mobile & Frontend Development*) - Çarpaz platformalı React Native (Expo) mobil tətbiqinin kodlanması, UI/UX interfeyslərinin ekranlaşdırılması və daxili "state" idarəetməsi.
 * **Sanan Hajiyev** (*Backend & Database Engineering*) - Supabase (PostgreSQL) məlumat bazasının arxitekturası, RLS (Row Level Security) təhlükəsizliyi və SQL RPC (process_payment) vasitəsilə atomik tranzaksiya məntiqinin yazılması.
@@ -20,9 +16,9 @@
 
 ---
 
-## 🌟 Əsas Funksiyalar və İnterfeys
+## Əsas Funksiyalar və İnterfeys
 
-### 🤖 Süni İntellekt Köməkçisi (AI Assistant)
+### Süni İntellekt Köməkçisi (AI Assistant)
 <p align="center">
   <img src="assets/chat.png" width="300" style="border-radius: 10px; margin-bottom: 5px;" />
 </p>
